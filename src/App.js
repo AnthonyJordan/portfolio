@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './Navbar';
 
 function App() {
-  return (<div>
+  return (<div className='appDiv'>
       <Navbar/>
       <Routes>
         <Route path="/" exact element={<Home/>} />

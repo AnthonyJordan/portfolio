@@ -1,7 +1,10 @@
+import About from "./About"
+import './Home.css';
 
 
 function Home(){
-    return(<div>
+    return(<div className="homeDiv">
+    <About/>
 
     </div>)
 }

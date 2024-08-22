@@ -1,5 +1,11 @@
 .navBarDiv{
     background-color: darksalmon;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    border-color: black;
+    border-bottom-style: solid;
 }
 
 .navBarNav{
