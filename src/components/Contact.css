@@ -1,0 +1,11 @@
+.contactDiv {
+  text-align: center;
+  border-top-style: solid;
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+  background-color: darkslateblue;
+}
+.linkedInLogo {
+  height: 50px;
+  width: 50px;
+}
