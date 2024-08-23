@@ -1,5 +1,5 @@
 import "./About.css";
-import config from "../config.json";
+import config from "../config";
 
 function About() {
   return (

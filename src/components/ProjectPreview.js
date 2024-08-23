@@ -1,14 +1,22 @@
 import "./ProjectPreview.css";
+import config from "../config";
+import ProjectCard from "./ProjectCard";
 
 function ProjectPreview() {
+  const projects = config.projects;
+
+  const projectCards = projects.map((project) => (
+    <ProjectCard
+      key={project.id}
+      id={project.id}
+      ssLocs={project.ssLocs}
+      brief={project.brief}
+    />
+  ));
   return (
     <div className="projectPreviewDiv">
       <div className="carousel">
-        <div className="carousel-track">
-          <img src={require("../images/projectImages/ph1.png")} alt="Image 1" />
-          <img src={require("../images/projectImages/ph2.png")} alt="Image 2" />
-          <img src={require("../images/projectImages/ph3.jpg")} alt="Image 3" />
-        </div>
+        <div className="carousel-track">{projectCards}</div>
       </div>
     </div>
   );
