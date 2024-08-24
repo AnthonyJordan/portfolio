@@ -11,6 +11,7 @@ function ProjectPreview() {
       id={project.id}
       ssLocs={project.ssLocs}
       brief={project.brief}
+      title={project.title}
     />
   ));
   return (

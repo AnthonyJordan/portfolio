@@ -1,6 +1,6 @@
 import "./ProjectCard.css";
 
-function ProjectCard({ id, ssLocs, brief }) {
+function ProjectCard({ id, title, ssLocs, brief }) {
   const screenShots = ssLocs.map((ssLoc, index) => (
     <img
       className="projectPreviewSS"
@@ -11,6 +11,7 @@ function ProjectCard({ id, ssLocs, brief }) {
   ));
   return (
     <div className="projectCardDiv">
+      <h3>{title}</h3>
       <p>{brief}</p>
       <div className="projectSSDiv">{screenShots}</div>
     </div>
