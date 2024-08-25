@@ -1,6 +1,6 @@
 import About from "./About";
-import Contact from "./Contact";
 import ProjectPreview from "./ProjectPreview";
+import Contact from "./Contact";
 import "./Home.css";
 
 function Home() {
