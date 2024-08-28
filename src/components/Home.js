@@ -1,6 +1,5 @@
 import About from "./About";
 import ProjectPreview from "./ProjectPreview";
-import Contact from "./Contact";
 import Certifications from "./Certifications";
 import "./Home.css";
 
@@ -10,7 +9,6 @@ function Home() {
       <About />
       <Certifications />
       <ProjectPreview />
-      <Contact />
     </div>
   );
 }
