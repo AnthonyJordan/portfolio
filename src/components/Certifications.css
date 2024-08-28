@@ -1,0 +1,10 @@
+.certDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+}
+.certImg {
+  height: 20vw;
+}

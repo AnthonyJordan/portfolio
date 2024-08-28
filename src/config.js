@@ -60,5 +60,17 @@ const config = {
       ],
     },
   ],
+  certifications: [
+    {
+      id: 0,
+      name: "AWS Certified Cloud Practitioner",
+      image: require("./images/AWSCert1.jpg"),
+    },
+    {
+      id: 1,
+      name: "CompTIA Security+",
+      image: require("./images/Security+Cert.jpg"),
+    },
+  ],
 };
 export default config;

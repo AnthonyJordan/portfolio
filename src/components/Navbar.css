@@ -1,16 +1,20 @@
-.navBarDiv{
-    background-color: darksalmon;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    border-bottom-left-radius: 3vw;
-    border-bottom-right-radius: 3vw;
-    border-color: black;
-    border-bottom-style: solid;
+.navBarDiv {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: darksalmon;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
+  border-color: black;
+  border-bottom-style: solid;
+  z-index: 1;
 }
 
-.navBarNav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.navBarNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
