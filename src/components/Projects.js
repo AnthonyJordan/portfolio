@@ -19,7 +19,7 @@ function Projects() {
       </a>
     ));
     return (
-      <div className="projectDiv" key={project.id}>
+      <div className="projectDiv" key={project.id} id={"project" + project.id}>
         <h2>{project.title}</h2>
         <div className="projectDesc">{project.description}</div>
         <div className="projectChallenges">{project.challenges}</div>

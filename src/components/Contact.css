@@ -3,7 +3,14 @@
   border-top-style: solid;
   border-top-left-radius: 3vw;
   border-top-right-radius: 3vw;
-  background-color: darkslateblue;
+  /* background-color: darkslateblue; */
+  background: radial-gradient(
+    circle at bottom left,
+    rgb(190, 45, 178, 0.8),
+    rgb(39, 22, 136, 0.6) 10%,
+    rgb(15, 144, 230),
+    rgb(15, 198, 230, 0.3)
+  );
 }
 .logo {
   height: 50px;

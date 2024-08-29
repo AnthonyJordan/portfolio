@@ -1,16 +1,19 @@
 .aboutDiv {
+  margin-top: 4vw;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 0.8vw;
+  max-width: 60%;
+  background-color: bisque;
+
+  border-radius: 50vw / 25vw;
 }
 .name {
-  padding-top: 4vw;
 }
 .headshotImg {
   height: 400px;
   border-radius: 20%;
 }
-p {
+.aboutMeP {
   margin-left: 30%;
   margin-right: 30%;
-  font-size: larger;
 }

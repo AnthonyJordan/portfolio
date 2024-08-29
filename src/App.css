@@ -3,5 +3,13 @@
 }
 
 .appDiv {
-  background-color: lightcoral;
+  background-image: url("./images/spaceBackground.png");
+}
+
+p {
+  font-size: larger;
+  margin: 0.5vw;
+}
+h3 {
+  margin: 0.5vw;
 }

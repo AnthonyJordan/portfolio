@@ -1,4 +1,5 @@
 import "./ProjectCard.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 function ProjectCard({ id, title, ssLocs, brief }) {
   const screenShots = ssLocs.map((ssLoc, index) => {
@@ -17,7 +18,9 @@ function ProjectCard({ id, title, ssLocs, brief }) {
     <div className="projectCardDiv">
       <h3>{title}</h3>
       <p>{brief}</p>
-      <div className="projectSSDiv">{screenShots}</div>
+      <Link className="projectLink" smooth to={`/projects#project${id}`}>
+        <div className="projectCardSSDiv">{screenShots}</div>
+      </Link>
     </div>
   );
 }

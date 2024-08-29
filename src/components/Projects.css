@@ -3,27 +3,38 @@ div {
 }
 .projectPage {
   padding-top: 4vw;
-}
-
-.projectDiv {
-  padding-bottom: 3vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.projectDiv {
+  padding: 1vw;
+  margin-bottom: 3vw;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  border-radius: 1vw;
+  border-style: inset;
+  border-color: beige;
+  background-color: aliceblue;
+  max-width: 90%;
+}
 .projectChallenges {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 .projectSSDiv {
+  flex-wrap: wrap;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 .projectSS {
   max-width: 25vw;
+  object-fit: contain;
 }
 .githubDiv {
   display: flex;

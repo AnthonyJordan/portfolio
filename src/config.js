@@ -17,9 +17,10 @@ const config = {
         "https://github.com/AnthonyJordan/SpaceR2Backend",
       ],
       ssLocs: [
-        { ss0: require("./images/projectImages/ph1.png") },
-        { ss1: require("./images/projectImages/ph2.png") },
-        { ss2: require("./images/projectImages/ph3.jpg") },
+        { ss0: require("./images/projectImages/spaceR/spaceR0.png") },
+        { ss1: require("./images/projectImages/spaceR/spaceR1.png") },
+        { ss2: require("./images/projectImages/spaceR/spaceR2.png") },
+        { ss3: require("./images/projectImages/spaceR/spaceR3.png") },
       ],
     },
     {
@@ -54,9 +55,11 @@ const config = {
         "https://github.com/AnthonyJordan/ffxiv_fc_website_backend2",
       ],
       ssLocs: [
-        { ss0: require("./images/projectImages/ph7.jpg") },
-        { ss1: require("./images/projectImages/ph8.jpg") },
-        { ss2: require("./images/projectImages/ph9.jpg") },
+        { ss0: require("./images/projectImages/usagi/usagi0.png") },
+        { ss1: require("./images/projectImages/usagi/usagi1.png") },
+        { ss2: require("./images/projectImages/usagi/usagi2.png") },
+        { ss3: require("./images/projectImages/usagi/usagi3.png") },
+        { ss4: require("./images/projectImages/usagi/usagi4.png") },
       ],
     },
   ],

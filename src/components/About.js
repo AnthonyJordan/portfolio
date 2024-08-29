@@ -4,7 +4,7 @@ import config from "../config";
 function About() {
   return (
     <div className="aboutDiv">
-      <h2 className="name">Anthony Jordan</h2>
+      <h2 className="">Anthony Jordan</h2>
       <img
         className="headshotImg"
         src={require("../images/headshot.jpg")}
