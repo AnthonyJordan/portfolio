@@ -3,16 +3,12 @@
 }
 
 .carousel {
-  width: 100%;
   overflow: hidden;
   position: relative;
-  max-width: 95%;
+  max-width: 85%;
   margin: auto;
-  border: 2px solid #887f7f;
-  border-radius: 2vw;
-  background-color: rgb(240, 232, 232);
-  border-style: outset;
-  border-width: 1vw;
+  border-radius: 25% 12%;
+  background-color: rgba(247, 245, 245, 0.644);
 }
 
 .carousel-track {
@@ -37,4 +33,51 @@
 
 .carousel-button-right {
   right: 10px;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.card::after,
+.card::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(
+    from var(--angle),
+    #ff4545,
+    #1d9967,
+    #0c499e,
+    #8a0954,
+    #a02f2f,
+    #ff4545
+  );
+  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  animation: 3s spin linear infinite;
+}
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }

@@ -35,9 +35,9 @@ const config = {
       tech: "HTML/CSS, JavaScript, React",
       github: ["https://github.com/AnthonyJordan/Hotherym-Original"],
       ssLocs: [
-        { ss0: require("./images/projectImages/ph4.jpeg") },
-        { ss1: require("./images/projectImages/ph5.png") },
-        { ss2: require("./images/projectImages/ph6.jpeg") },
+        { ss0: require("./images/projectImages/hotherym/hotherym0.PNG") },
+        { ss1: require("./images/projectImages/hotherym/hotherym1.PNG") },
+        { ss2: require("./images/projectImages/hotherym/hotherym2.PNG") },
       ],
     },
     {

@@ -46,8 +46,8 @@ function ProjectPreview() {
     />
   ));
   return (
-    <div className="projectPreviewDiv">
-      <div className="carousel">
+    <div className={"projectPreviewDiv"}>
+      <div className="carousel card">
         <div className="carousel-track">{projectCards}</div>
         <button class="carousel-button carousel-button-left">&lt;</button>
         <button class="carousel-button carousel-button-right">&gt;</button>
