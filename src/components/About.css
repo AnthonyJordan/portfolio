@@ -1,19 +1,36 @@
 .aboutDiv {
-  margin-top: 4vw;
   text-align: center;
   padding-bottom: 0.8vw;
-  max-width: 60%;
-  background-color: bisque;
-
-  border-radius: 50vw / 25vw;
+  max-width: 70%;
+  height: 120vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/moon2.png");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
 }
 .name {
+  margin-top: 15vh;
+  text-shadow: 1em 1em 1em black;
+  margin-bottom: 2vh;
 }
 .headshotImg {
-  height: 400px;
+  max-height: 40vh;
+  max-width: 40vw;
+  height: auto;
+  width: auto;
   border-radius: 20%;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 1em 1em 1em black;
 }
 .aboutMeP {
+  margin-top: 2em;
   margin-left: 30%;
   margin-right: 30%;
+  font-size: clamp(14px, 1.3vw, 1.3vw);
+  color: white;
+  text-shadow: -2px -2px 2em #000, 2px -2px 2em #000, -2px 2px 2em #000,
+    2px 2px 2em #000;
 }

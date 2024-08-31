@@ -9,11 +9,25 @@ function App() {
   return (
     <div className="appDiv">
       <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-      <Contact />
+      <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Contact />
+      </section>
     </div>
   );
 }

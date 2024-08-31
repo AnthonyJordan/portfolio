@@ -8,11 +8,11 @@
   justify-content: space-evenly;
 }
 
-h3 {
+.projectCard h3 {
   max-height: 10%;
 }
 
-p {
+.projectCard p {
   max-height: 10%;
 }
 

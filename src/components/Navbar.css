@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: darksalmon;
+  background-color: rgb(197, 197, 197);
   padding-top: 20px;
   padding-bottom: 25px;
   border-bottom-left-radius: 3vw;
@@ -17,4 +17,12 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.navLinkDiv {
+}
+.navLinkDiv:hover {
+  box-shadow: 0 0 2em 1em rgba(0, 0, 0, 0.4);
+}
+.navLink {
+  text-decoration: none;
 }

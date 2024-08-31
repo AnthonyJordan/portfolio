@@ -3,8 +3,8 @@ import config from "../config";
 
 function About() {
   return (
-    <div className="aboutDiv">
-      <h2 className="">Anthony Jordan</h2>
+    <div className="aboutDiv imageDiv">
+      <h2 className="name">Anthony Jordan</h2>
       <img
         className="headshotImg"
         src={require("../images/headshot.jpg")}

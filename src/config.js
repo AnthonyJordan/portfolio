@@ -1,6 +1,6 @@
 const config = {
   aboutMe:
-    "A self-motivated, dedicated Software Developer with cybersecurity training. Highly regarded for utilizing comprehensive technical knowledge to develop software and train AI models. Known for excellent customer support, timely delivery, dedication, and quick learning.",
+    "Hello! Welcome to my website. I am Anthony, a software developer with a passion for the craft. I graduated top of my class from two well regarded bootcamps and have been in software development for 6+ years now. I am always learning new things and trying out new technologies. Most recently I have been working on training AI. Please take a look at some of my projects and feel free to reach out to me!",
   projects: [
     {
       id: 0,

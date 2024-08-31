@@ -6,18 +6,22 @@ function Navbar() {
   return (
     <div className="navBarDiv">
       <nav className="navBarNav">
-        <div>
-          <Link onClick={() => setSelection("")} to="/">
+        <div className="navLinkDiv">
+          <Link className="navLink" onClick={() => setSelection("")} to="/">
             Home
           </Link>
         </div>
-        <div>
-          <Link onClick={() => setSelection("projects")} to="/projects">
+        <div className="navLinkDiv">
+          <Link
+            className="navLink"
+            onClick={() => setSelection("projects")}
+            to="/projects"
+          >
             Projects
           </Link>
         </div>
-        <div>
-          <Link smooth to={`/${selection}#contact`}>
+        <div className="navLinkDiv">
+          <Link className="navLink" smooth to={`/${selection}#contact`}>
             Contact
           </Link>
         </div>
