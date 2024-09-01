@@ -3,13 +3,15 @@
   top: 0;
   width: 100%;
   background-color: rgb(197, 197, 197);
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   border-bottom-left-radius: 3vw;
   border-bottom-right-radius: 3vw;
   border-color: black;
   border-bottom-style: solid;
   z-index: 1;
+  background-image: url("../images/header.png");
+  background-size: contain;
 }
 
 .navBarNav {
@@ -19,10 +21,15 @@
   align-items: center;
 }
 .navLinkDiv {
+  padding: 1em;
+  border-radius: 80%;
+  backdrop-filter: blur(10px); /* Adjust blur as needed */
 }
 .navLinkDiv:hover {
-  box-shadow: 0 0 2em 1em rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8);
 }
 .navLink {
   text-decoration: none;
+  font-weight: bold;
 }

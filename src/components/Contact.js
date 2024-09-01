@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="contactDiv" id="contact">
       <p>
-        Please reach out to me here:
+        Please contact me here:
         <br />
         <a href="mailto:AnthonyJosephJordan@gmail.com<">
           AnthonyJosephJordan@gmail.com

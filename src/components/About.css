@@ -1,10 +1,10 @@
 .aboutDiv {
+  margin-top: 1.3em;
   text-align: center;
   padding-bottom: 0.8vw;
   max-width: 70%;
   height: 120vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/moon2.png");
+  background-image: url("../images/moon2.png");
   background-size: 230vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,7 +12,8 @@
 }
 .name {
   margin-top: 15vh;
-  text-shadow: 1em 1em 1em black;
+  text-shadow: 1em 1em 1em black, 1px 1px 0 white, -1px 1px 0 white,
+    1px -1px 0 white, -1px -1px 0 white;
   margin-bottom: 2vh;
 }
 .headshotImg {
