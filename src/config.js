@@ -75,5 +75,7 @@ const config = {
       image: require("./images/Security+Cert.jpg"),
     },
   ],
+  projectsIntro:
+    "Below are just a few of the projects I have worked on over the years. And, of course, I built this website you are currently on. Made with React and hosted severless on AWS, I learned a lot of really cool CSS tricks when designing this website, many of which I implemented. It gave me much deeper understanding new respect for abilites of CSS.",
 };
 export default config;

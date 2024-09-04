@@ -1,7 +1,22 @@
 import config from "../config";
+import { useState } from "react";
 import "./Projects.css";
+import ImageModal from "./ImageModal";
 
 function Projects() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [imageSelection, setImageSelection] = useState("");
+  function onImageClick(image) {
+    setImageSelection({ image: image });
+    setModalOpen(true);
+  }
+  let ImageModalHolder = modalOpen ? (
+    <ImageModal
+      description={imageSelection.src}
+      src={imageSelection.image}
+      closeModal={() => setModalOpen(false)}
+    />
+  ) : null;
   const projects = config.projects.map((project) => {
     const screenShots = project.ssLocs.map((ssLoc, index) => {
       return (
@@ -10,6 +25,7 @@ function Projects() {
           key={"Project " + project.id + " screenshot " + index}
           src={ssLoc["ss" + index]}
           alt={"Project " + project.id + " screenshot " + index}
+          onClick={() => onImageClick(ssLoc["ss" + index])}
         />
       );
     });
@@ -35,12 +51,14 @@ function Projects() {
       </div>
     );
   });
+
   return (
     <div className="projectPage">
       <div className="introDiv">
-        <h3 className="projectsIntro">Intro</h3>
+        <p className="projectsIntro">{config.projectsIntro}</p>
       </div>
       {projects}
+      {ImageModalHolder}
     </div>
   );
 }
