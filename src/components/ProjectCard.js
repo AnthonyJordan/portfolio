@@ -13,6 +13,7 @@ function ProjectCard({ id, title, ssLocs, brief }) {
         />
       );
     }
+    return null;
   });
   return (
     <div className="projectCardDiv">

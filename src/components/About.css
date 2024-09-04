@@ -8,7 +8,7 @@
   background-size: 230vh;
   background-repeat: no-repeat;
   background-position: center;
-  overflow: scroll;
+  overflow: hidden;
 }
 .name {
   margin-top: 15vh;
