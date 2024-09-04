@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./images/spaceBackground.png");
   z-index: -2;
+  text-align: center;
 }
 
 code {

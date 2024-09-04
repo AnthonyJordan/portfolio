@@ -24,6 +24,9 @@
   padding: 1em;
   border-radius: 80%;
   backdrop-filter: blur(10px); /* Adjust blur as needed */
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 .navLinkDiv:hover {
   transform: translateY(-2px);
