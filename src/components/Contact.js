@@ -6,7 +6,7 @@ function Contact() {
       <p>
         Please contact me here:
         <br />
-        <a href="mailto:AnthonyJosephJordan@gmail.com<">
+        <a href="mailto:AnthonyJosephJordan@gmail.com">
           AnthonyJosephJordan@gmail.com
         </a>
       </p>

@@ -54,7 +54,7 @@ function Projects() {
 
   return (
     <div className="projectPage">
-      <div className="introDiv">
+      <div className="introDiv projectIntroCard">
         <p className="projectsIntro">{config.projectsIntro}</p>
       </div>
       {projects}

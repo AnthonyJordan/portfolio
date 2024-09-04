@@ -29,12 +29,11 @@ function ProjectPreview() {
       updateCarousel();
     });
 
-    // Clean up event listeners on unmount
     return () => {
       nextButton.removeEventListener("click", () => {});
       prevButton.removeEventListener("click", () => {});
     };
-  }, []); // Empty dependency array means this effect runs only once, after the initial render
+  }, []);
 
   const projectCards = projects.map((project) => (
     <ProjectCard
@@ -47,7 +46,8 @@ function ProjectPreview() {
   ));
   return (
     <div className={"projectPreviewDiv"}>
-      <div className="carousel card">
+      <div className="carousel caroselCard">
+        <h2>Project Preview</h2>
         <div className="carousel-track">{projectCards}</div>
         <button class="carousel-button carousel-button-left">&lt;</button>
         <button class="carousel-button carousel-button-right">&gt;</button>

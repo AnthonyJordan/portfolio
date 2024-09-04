@@ -8,7 +8,7 @@
   max-width: 85%;
   margin: auto;
   border-radius: 25% 12%;
-  background-color: rgba(247, 245, 245, 0.644);
+  background-color: rgba(247, 245, 245, 0.7);
 }
 
 .carousel-track {
@@ -41,35 +41,35 @@
   inherits: false;
 }
 
-.card {
+.caroselCard {
   margin: 0 auto;
   text-align: center;
   position: relative;
 }
 
-.card::after,
-.card::before {
+.caroselCard::after,
+.caroselCard::before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
   background-image: conic-gradient(
     from var(--angle),
-    #ff4545,
-    #1d9967,
-    #0c499e,
-    #8a0954,
-    #a02f2f,
-    #ff4545
+    rgb(255, 69, 69, 0.4),
+    rgb(29, 153, 103, 0.4),
+    rgb(12, 73, 158, 0.4),
+    rgb(138, 9, 84, 0.4),
+    rgb(160, 47, 47, 0.4),
+    rgb(255, 69, 69, 0.4)
   );
-  opacity: 0.5;
+
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
   animation: 3s spin linear infinite;
 }
-.card::before {
+.caroselCard::before {
   filter: blur(1.5rem);
   opacity: 0.5;
 }

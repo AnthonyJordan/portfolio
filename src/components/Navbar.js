@@ -17,9 +17,9 @@ function Navbar() {
         >
           <div className="navLinkDiv">Projects</div>
         </Link>
-        <Link className="navLink" smooth to={`/${selection}#contact`}>
+        {/* <Link className="navLink" smooth to={`/${selection}#contact`}>
           <div className="navLinkDiv">Contact</div>
-        </Link>
+        </Link> */}
       </nav>
     </div>
   );

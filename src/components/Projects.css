@@ -68,9 +68,55 @@
   clip-path: polygon(100% 8%, 93% 0, 0% 0, 0% 92%, 7% 100%, 100% 100%);
 }
 .introDiv {
-  background-color: silver;
+  color: rgb(226, 226, 226);
   margin-left: 11.5%;
   margin-right: 11.5%;
   margin-top: 6vh;
   margin-bottom: 6vh;
+}
+.projectIntroCard {
+  background: #060911;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.projectIntroCard::after,
+.projectIntroCard::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(
+    from var(--angle),
+    #ff4545,
+    #00ff99,
+    #006aff,
+    #ff0095,
+    #ff4545
+  );
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+.projectIntroCard::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }
