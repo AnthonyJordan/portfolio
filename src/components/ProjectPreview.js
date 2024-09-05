@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard";
 function ProjectPreview() {
   const projects = config.projects;
 
+  // Setup carousel
   useEffect(() => {
     const track = document.querySelector(".carousel-track");
     const images = Array.from(track.children);

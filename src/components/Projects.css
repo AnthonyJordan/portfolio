@@ -38,6 +38,8 @@
   display: flex;
   flex-direction: column;
 }
+
+/* alternating styles */
 .style1 {
   background: linear-gradient(
       to bottom right,
@@ -85,7 +87,7 @@
   initial-value: 0deg;
   inherits: false;
 }
-
+/* intro border effect */
 .projectIntroCard::after,
 .projectIntroCard::before {
   content: "";

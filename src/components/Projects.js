@@ -4,6 +4,7 @@ import "./Projects.css";
 import ImageModal from "./ImageModal";
 
 function Projects() {
+  //modal setup
   const [modalOpen, setModalOpen] = useState(false);
   const [imageSelection, setImageSelection] = useState("");
   function onImageClick(image) {
@@ -17,6 +18,7 @@ function Projects() {
       closeModal={() => setModalOpen(false)}
     />
   ) : null;
+  //create project cards (should abstract this)
   const projects = config.projects.map((project) => {
     const screenShots = project.ssLocs.map((ssLoc, index) => {
       return (
@@ -34,6 +36,7 @@ function Projects() {
         {link}
       </a>
     ));
+    //alternates style
     const className =
       Math.floor(project.id / 2) || project.id === 0
         ? "projectDiv style1"

@@ -2,6 +2,7 @@ import "./ProjectCard.css";
 import { HashLink as Link } from "react-router-hash-link";
 
 function ProjectCard({ id, title, ssLocs, brief }) {
+  //creates screenshot cards
   const screenShots = ssLocs.map((ssLoc, index) => {
     if (index < 3) {
       return (

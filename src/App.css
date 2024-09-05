@@ -21,7 +21,7 @@ section {
   height: fit-content;
   overflow: hidden;
 }
-
+/* shooting stars */
 span {
   position: absolute;
   width: 4px;

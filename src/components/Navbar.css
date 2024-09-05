@@ -23,7 +23,7 @@
 .navLinkDiv {
   padding: 1em;
   border-radius: 80%;
-  backdrop-filter: blur(10px); /* Adjust blur as needed */
+  backdrop-filter: blur(10px);
   border-style: solid;
   border-color: black;
   border-width: 1px;

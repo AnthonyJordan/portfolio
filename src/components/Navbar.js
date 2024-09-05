@@ -17,7 +17,8 @@ function Navbar() {
         >
           <div className="navLinkDiv">Projects</div>
         </Link>
-        {/* <Link className="navLink" smooth to={`/${selection}#contact`}>
+        {/* Contact link has issues with shooting star spans
+        <Link className="navLink" smooth to={`/${selection}#contact`}>
           <div className="navLinkDiv">Contact</div>
         </Link> */}
       </nav>

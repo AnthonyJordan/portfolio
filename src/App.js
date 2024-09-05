@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+//spans are shooting stars
 function App() {
   return (
     <div className="appDiv">

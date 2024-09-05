@@ -14,6 +14,10 @@
   );
   backdrop-filter: blur(3px);
 }
+
+.contactDiv a {
+  color: white;
+}
 .logo {
   height: 50px;
   width: 50px;

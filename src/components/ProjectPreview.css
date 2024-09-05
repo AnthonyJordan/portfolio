@@ -46,7 +46,7 @@
   text-align: center;
   position: relative;
 }
-
+/* spinning effect */
 .caroselCard::after,
 .caroselCard::before {
   content: "";
