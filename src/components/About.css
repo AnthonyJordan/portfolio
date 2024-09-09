@@ -1,6 +1,5 @@
 .aboutDiv {
   margin-top: 1.3em;
-  text-align: center;
   padding-bottom: 0.8vw;
   max-width: 70%;
   height: 120vh;
@@ -35,4 +34,10 @@
   color: white;
   text-shadow: -2px -2px 2em #000, 2px -2px 2em #000, -2px 2px 2em #000,
     2px 2px 2em #000;
+}
+@media only screen and (max-width: 768px) {
+  .aboutDiv {
+    margin-top: 2.5em;
+    max-width: 100%;
+  }
 }

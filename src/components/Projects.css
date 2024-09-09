@@ -122,3 +122,9 @@
     --angle: 360deg;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .introDiv {
+    margin-top: 12vh;
+  }
+}

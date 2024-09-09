@@ -11,13 +11,11 @@
 }
 
 .projectCardDiv h3 {
-  max-height: 10%;
   grid-area: 1 / 1 / 2 / 2;
   align-self: end;
 }
 
 .projectCardDiv p {
-  max-height: 10%;
   grid-area: 2 / 1 / 4 / 2;
 }
 
@@ -46,10 +44,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-
-  .projectCardSSDiv {
-    flex-wrap: wrap;
   }
   .projectCardDiv h3 {
     align-self: center;

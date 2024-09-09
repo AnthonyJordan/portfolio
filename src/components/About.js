@@ -3,7 +3,7 @@ import config from "../config";
 
 function About() {
   return (
-    <div className="aboutDiv imageDiv">
+    <div className="aboutDiv">
       <h2 className="name">Anthony Jordan</h2>
       <img
         className="headshotImg"
