@@ -50,8 +50,8 @@ function ProjectPreview() {
       <div className="carousel caroselCard">
         <h2>Project Preview</h2>
         <div className="carousel-track">{projectCards}</div>
-        <button class="carousel-button carousel-button-left">&lt;</button>
-        <button class="carousel-button carousel-button-right">&gt;</button>
+        <button className="carousel-button carousel-button-left">&lt;</button>
+        <button className="carousel-button carousel-button-right">&gt;</button>
       </div>
     </div>
   );

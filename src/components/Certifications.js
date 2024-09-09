@@ -7,6 +7,7 @@ function Certifications() {
       className="certImg"
       src={certification.image}
       alt={certification.name}
+      key={certification.id}
     />
   ));
   return <div className="certDiv">{certs}</div>;
