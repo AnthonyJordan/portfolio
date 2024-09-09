@@ -1,19 +1,24 @@
 .projectCardDiv {
   min-width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   padding-left: 2%;
   padding-right: 2%;
-  justify-content: space-evenly;
 }
 
-.projectCard h3 {
+.projectCardDiv h3 {
   max-height: 10%;
+  grid-area: 1 / 1 / 2 / 2;
+  align-self: end;
 }
 
-.projectCard p {
+.projectCardDiv p {
   max-height: 10%;
+  grid-area: 2 / 1 / 4 / 2;
 }
 
 .projectCardSSDiv {
@@ -27,9 +32,26 @@
   max-width: 33%;
   margin: 1%;
   object-fit: contain;
-  max-height: 60vh;
+  max-height: 35vh;
 }
 .projectLink {
+  grid-area: 1 / 2 / 4 / 6;
   margin-left: 2vw;
   margin-right: 2vw;
+  align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectCardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .projectCardSSDiv {
+    flex-wrap: wrap;
+  }
+  .projectCardDiv h3 {
+    align-self: center;
+  }
 }

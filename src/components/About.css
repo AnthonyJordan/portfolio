@@ -11,6 +11,7 @@
   overflow: hidden;
 }
 .name {
+  font-size: 3em;
   margin-top: 15vh;
   text-shadow: 1em 1em 1em black, 1px 1px 0 white, -1px 1px 0 white,
     1px -1px 0 white, -1px -1px 0 white;
@@ -24,7 +25,7 @@
   border-radius: 20%;
   border-style: solid;
   border-width: 2px;
-  box-shadow: 1em 1em 1em black;
+  box-shadow: 1em 1em 2em black;
 }
 .aboutMeP {
   margin-top: 2em;

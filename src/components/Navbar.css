@@ -2,7 +2,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(197, 197, 197);
   padding-top: 10px;
   padding-bottom: 15px;
   border-bottom-left-radius: 3vw;
@@ -27,6 +26,7 @@
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .navLinkDiv:hover {
   transform: translateY(-2px);
